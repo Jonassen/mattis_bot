@@ -1,0 +1,11 @@
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\bin\Debug\netcoreapp2.0\mattis_bot.deps.json
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\bin\Debug\netcoreapp2.0\mattis_bot.runtimeconfig.json
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\bin\Debug\netcoreapp2.0\mattis_bot.runtimeconfig.dev.json
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\bin\Debug\netcoreapp2.0\mattis_bot.dll
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\bin\Debug\netcoreapp2.0\mattis_bot.pdb
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\obj\Debug\netcoreapp2.0\mattis_bot.csprojResolveAssemblyReference.cache
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\obj\Debug\netcoreapp2.0\mattis_bot.csproj.CoreCompileInputs.cache
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\obj\Debug\netcoreapp2.0\mattis_bot.AssemblyInfoInputs.cache
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\obj\Debug\netcoreapp2.0\mattis_bot.AssemblyInfo.cs
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\obj\Debug\netcoreapp2.0\mattis_bot.dll
+D:\Programming\mattis_bot\C#_code\mattis_bot\mattis_bot\obj\Debug\netcoreapp2.0\mattis_bot.pdb
