@@ -1,6 +1,8 @@
 ﻿using System;
 using Newtonsoft.Json;
 using mattis_bot.Deck;
+using System.Net;
+using System.IO;
 
 namespace mattis_bot
 {
@@ -8,29 +10,19 @@ namespace mattis_bot
     {
         static void Main(string[] args)
         {
-            string uri = "https://hooks.slack.com/services/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";
-            // Slackbot bot = new Slackbot(uri);
+            string uri = Environment.GetEnvironmentVariable("slackWebhook");
+            Slackbot bot = new Slackbot(uri);
             // bot.PostMessage("test", channel: "U7QHFQ6LE");
 
-            Deck.Deck deck = Deck.Deck.newDeck(1);
-            foreach (Card card in deck.cards)
-            {
-                Console.Write(card + " ");
-            }
-            Console.WriteLine();
-            deck.shuffle();
-            foreach (Card card in deck.cards)
-            {
-                Console.Write(card + " ");
-            }
-            Console.WriteLine();
-            deck.sort();
-            foreach (Card card in deck.cards)
-            {
-                Console.Write(card + " ");
-            }
+            HttpListener listener = new HttpListener();
+            listener.Prefixes.Add("http://localhost:8080/");
+            listener.Start();
+            var context = listener.GetContext();
+            var request = context.Request;
+            StreamReader sr = new StreamReader(request.InputStream);
+            bot.PostMessage("Received con", channel: "U7QHFQ6LE");
+            bot.PostMessage(sr.ReadToEnd(), channel: "U7QHFQ6LE");
 
-            Console.ReadLine();
         }
     }
 }

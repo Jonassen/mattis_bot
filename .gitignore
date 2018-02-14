@@ -1,1 +1,5 @@
 .idea/
+/C#_code/mattis_bot/.vs/
+/C#_code/mattis_bot/mattis_bot/obj/
+/C#_code/mattis_bot/bin/
+/C#_code/mattis_bot/mattis_bot/Properties/PublishProfiles
